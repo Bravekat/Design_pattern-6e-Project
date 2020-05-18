@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="eindproject.AddMovieDisplay">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b043f" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b7b8f" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bd8b1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Het land van herkomst"/>
+        </properties>
+      </component>
+      <component id="ff268" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="De naam van de film"/>
+        </properties>
+      </component>
+      <component id="c45e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Het jaar waarin de film is gemaakt"/>
+        </properties>
+      </component>
+      <component id="4c50d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Afghanistan"/>
+            <item value="Albania"/>
+            <item value="Algeria"/>
+            <item value="Andorra"/>
+            <item value="Angola"/>
+            <item value="Antigua &amp; Deps"/>
+            <item value="Argentina"/>
+            <item value="Armenia"/>
+            <item value="Australia"/>
+            <item value="Austria"/>
+            <item value="Azerbaijan"/>
+            <item value="Bahamas"/>
+            <item value="Bahrain"/>
+            <item value="Bangladesh"/>
+            <item value="Barbados"/>
+            <item value="Belarus"/>
+            <item value="Belgium"/>
+            <item value="Belize"/>
+            <item value="Benin"/>
+            <item value="Bhutan"/>
+            <item value="Bolivia"/>
+            <item value="Bosnia Herzegovina"/>
+            <item value="Botswana"/>
+            <item value="Brazil"/>
+            <item value="Brunei"/>
+            <item value="Bulgaria"/>
+            <item value="Burkina"/>
+            <item value="Burundi"/>
+            <item value="Cambodia"/>
+            <item value="Cameroon"/>
+            <item value="Canada"/>
+            <item value="Cape Verde"/>
+            <item value="Central African Rep"/>
+            <item value="Chad"/>
+            <item value="Chile"/>
+            <item value="China"/>
+            <item value="Colombia"/>
+            <item value="Comoros"/>
+            <item value="Congo"/>
+            <item value="Congo {Democratic Rep}"/>
+            <item value="Costa Rica"/>
+            <item value="Croatia"/>
+            <item value="Cuba"/>
+            <item value="Cyprus"/>
+            <item value="Czech Republic"/>
+            <item value="Denmark"/>
+            <item value="Djibouti"/>
+            <item value="Dominica"/>
+            <item value="Dominican Republic"/>
+            <item value="East Timor"/>
+            <item value="Ecuador"/>
+            <item value="Egypt"/>
+            <item value="El Salvador"/>
+            <item value="Equatorial Guinea"/>
+            <item value="Eritrea"/>
+            <item value="Estonia"/>
+            <item value="Ethiopia"/>
+            <item value="Fiji"/>
+            <item value="Finland"/>
+            <item value="France"/>
+            <item value="Gabon"/>
+            <item value="Gambia"/>
+            <item value="Georgia"/>
+            <item value="Germany"/>
+            <item value="Ghana"/>
+            <item value="Greece"/>
+            <item value="Grenada"/>
+            <item value="Guatemala"/>
+            <item value="Guinea"/>
+            <item value="Guinea-Bissau"/>
+            <item value="Guyana"/>
+            <item value="Haiti"/>
+            <item value="Honduras"/>
+            <item value="Hungary"/>
+            <item value="Iceland"/>
+            <item value="India"/>
+            <item value="Indonesia"/>
+            <item value="Iran"/>
+            <item value="Iraq"/>
+            <item value="Ireland {Republic}"/>
+            <item value="Israel"/>
+            <item value="Italy"/>
+            <item value="Ivory Coast"/>
+            <item value="Jamaica"/>
+            <item value="Japan"/>
+            <item value="Jordan"/>
+            <item value="Kazakhstan"/>
+            <item value="Kenya"/>
+            <item value="Kiribati"/>
+            <item value="Korea North"/>
+            <item value="Korea South"/>
+            <item value="Kosovo"/>
+            <item value="Kuwait"/>
+            <item value="Kyrgyzstan"/>
+            <item value="Laos"/>
+            <item value="Latvia"/>
+            <item value="Lebanon"/>
+            <item value="Lesotho"/>
+            <item value="Liberia"/>
+            <item value="Libya"/>
+            <item value="Liechtenstein"/>
+            <item value="Lithuania"/>
+            <item value="Luxembourg"/>
+            <item value="Macedonia"/>
+            <item value="Madagascar"/>
+            <item value="Malawi"/>
+            <item value="Malaysia"/>
+            <item value="Maldives"/>
+            <item value="Mali"/>
+            <item value="Malta"/>
+            <item value="Marshall Islands"/>
+            <item value="Mauritania"/>
+            <item value="Mauritius"/>
+            <item value="Mexico"/>
+            <item value="Micronesia"/>
+            <item value="Moldova"/>
+            <item value="Monaco"/>
+            <item value="Mongolia"/>
+            <item value="Montenegro"/>
+            <item value="Morocco"/>
+            <item value="Mozambique"/>
+            <item value="Myanmar, {Burma}"/>
+            <item value="Namibia"/>
+            <item value="Nauru"/>
+            <item value="Nepal"/>
+            <item value="Netherlands"/>
+            <item value="New Zealand"/>
+            <item value="Nicaragua"/>
+            <item value="Niger"/>
+            <item value="Nigeria"/>
+            <item value="Norway"/>
+            <item value="Oman"/>
+            <item value="Pakistan"/>
+            <item value="Palau"/>
+            <item value="Panama"/>
+            <item value="Papua New Guinea"/>
+            <item value="Paraguay"/>
+            <item value="Peru"/>
+            <item value="Philippines"/>
+            <item value="Poland"/>
+            <item value="Portugal"/>
+            <item value="Qatar"/>
+            <item value="Romania"/>
+            <item value="Russian Federation"/>
+            <item value="Rwanda"/>
+            <item value="St Kitts &amp; Nevis"/>
+            <item value="St Lucia"/>
+            <item value="Saint Vincent &amp; the Grenadines"/>
+            <item value="Samoa"/>
+            <item value="San Marino"/>
+            <item value="Sao Tome &amp; Principe"/>
+            <item value="Saudi Arabia"/>
+            <item value="Senegal"/>
+            <item value="Serbia"/>
+            <item value="Seychelles"/>
+            <item value="Sierra Leone"/>
+            <item value="Singapore"/>
+            <item value="Slovakia"/>
+            <item value="Slovenia"/>
+            <item value="Solomon Islands"/>
+            <item value="Somalia"/>
+            <item value="South Africa"/>
+            <item value="South Sudan"/>
+            <item value="Spain"/>
+            <item value="Sri Lanka"/>
+            <item value="Sudan"/>
+            <item value="Suriname"/>
+            <item value="Swaziland"/>
+            <item value="Sweden"/>
+            <item value="Switzerland"/>
+            <item value="Syria"/>
+            <item value="Taiwan"/>
+            <item value="Tajikistan"/>
+            <item value="Tanzania"/>
+            <item value="Thailand"/>
+            <item value="Togo"/>
+            <item value="Tonga"/>
+            <item value="Trinidad &amp; Tobago"/>
+            <item value="Tunisia"/>
+            <item value="Turkey"/>
+            <item value="Turkmenistan"/>
+            <item value="Tuvalu"/>
+            <item value="Uganda"/>
+            <item value="Ukraine"/>
+            <item value="United Arab Emirates"/>
+            <item value="United Kingdom"/>
+            <item value="United States"/>
+            <item value="Uruguay"/>
+            <item value="Uzbekistan"/>
+            <item value="Vanuatu"/>
+            <item value="Vatican City"/>
+            <item value="Venezuela"/>
+            <item value="Vietnam"/>
+            <item value="Yemen"/>
+            <item value="Zambia"/>
+            <item value="Zimbabwe"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f74dc" class="javax.swing.JButton" binding="addMovieButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add movie"/>
+        </properties>
+      </component>
+      <component id="11af5" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="39c30" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Het budget voor de film"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
